@@ -1,0 +1,4 @@
+'use strict';
+//use token.js to set token for slack bot
+
+module.exports='put your Slack bot token here';

@@ -1,0 +1,26 @@
+{
+  "name": "ciordachebot",
+  "version": "1.0.0",
+  "description": "a Slack bot that smacks you if you ask something",
+  "main": "lib/ciordachebot.js",
+  "bin": {
+    "ciordachebot": "bin/bot.js"
+  },
+  "scripts": {
+    "start": "node bin/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rezist",
+    "ciordache",
+    "Romania2017",
+    "Slack",
+    "bot"
+  ],
+  "author": "Bogdan Raduta",
+  "license": "MIT",
+  "dependencies": {
+    "slackbots": "^0.3.0",
+    "util": "^0.10.3"
+  }
+}
